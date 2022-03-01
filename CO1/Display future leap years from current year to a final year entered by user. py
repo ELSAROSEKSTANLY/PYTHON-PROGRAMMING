@@ -1,0 +1,7 @@
+print(&quot;print leap year between two given years&quot;)
+startyear=int(input(&quot;Enter startyear&quot;))
+endyear=int(input(&quot;Enter end year&quot;))
+print(&quot;list of leap years&quot;);
+for year in range(startyear,endyear):
+if (0==year%4 ) and (0!=year%100) or (0==year%400):
+print(year)
